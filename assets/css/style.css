@@ -327,6 +327,7 @@ footer a {
     height: 6rem;
     text-align: left;
     font-size: 15px;
+    font-weight: 500;
   }
   header > div,
   div > p,
@@ -336,9 +337,21 @@ footer a {
     vertical-align: middle;
   }
 
+  header p {
+    margin-bottom: 7rem;
+  }
+
   header div img {
     height: 100%;
     width: 13rem;
+    margin-inline: 2rem;
+  }
+  nav {
+    margin: 2rem 0 0 50rem;
+  }
+
+  nav a {
+    font-weight: 500;
   }
   header nav li {
     display: inline-block;
